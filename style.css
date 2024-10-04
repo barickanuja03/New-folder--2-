@@ -15,24 +15,26 @@
     background: linear-gradient(to right, #f0c1d8, #a9c4ff);
     text-align: center;
     color: #333;
-    width: 100%;
+    width: 100vw;
     height: auto;
-    display: flex;
+    padding: 70px auto;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
+    overflow-x: hidden; */
   }
   .headStyle{
       display: flex;
       align-items: center;
+      justify-content: center;
       flex-direction: column;
-      padding: 50px auto;
   }
   .why-us{
-    font-weight:"bold";
+    font-weight:bold;
     font-size: 40px;
     text-wrap: wrap;
+    padding: 40px auto;
   }
   .why-us-desc{
     font-size: 20px;
@@ -43,7 +45,7 @@
   /****** Project-section ****/
   .one-row{
     width: 100%;
-    height: min-content;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +56,8 @@
    margin: 20px auto;
   }
   .title-content{
-    max-width: max-content;
+    max-width: min-content;
+    text-wrap: nowrap;
     padding: 7px 25px;
     background: var(--box-color);
     font-size: 1.3rem;
