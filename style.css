@@ -20,22 +20,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
   }
   .headStyle{
       display: flex;
       align-items: center;
-      gap: 30px;
       flex-direction: column;
+      padding: 50px auto;
   }
   .why-us{
     font-weight:"bold";
     font-size: 40px;
-
+    text-wrap: wrap;
   }
   .why-us-desc{
     font-size: 20px;
     font-weight: 700;
     width: 50%;
+    text-wrap: wrap;
   }
   /****** Project-section ****/
   .one-row{
